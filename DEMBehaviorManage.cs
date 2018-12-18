@@ -1224,7 +1224,7 @@ namespace O2Micro.Cobra.KALL14
             }
             //ushort efuse_mode = 0;
             bool mapping_disable = false;
-            if (msg.gm.sflname == "OPConfig")
+            if (msg.gm.sflname == "Register Config")
             {
                 /*ReadWord(0x50, ref efuse_mode);
                 efuse_mode &= 0xfffc;
@@ -1241,7 +1241,7 @@ namespace O2Micro.Cobra.KALL14
                 if (ret != LibErrorCode.IDS_ERR_SUCCESSFUL)
                     return ret;
             }
-            /*if (msg.gm.sflname == "OPConfig")
+            /*if (msg.gm.sflname == "Register Config")
             {
                 ReadWord(0x1e, ref efuse_mode);
                 efuse_mode &= 0xfffc;
