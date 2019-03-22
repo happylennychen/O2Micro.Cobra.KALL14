@@ -14,6 +14,7 @@ using System.Threading;
 using System.ComponentModel;
 using O2Micro.Cobra.Communication;
 using O2Micro.Cobra.Common;
+using System.IO;
 
 namespace O2Micro.Cobra.KALL14
 {
@@ -1641,6 +1642,39 @@ namespace O2Micro.Cobra.KALL14
                             return ret;
                         break;
                     }
+                case ElementDefine.COMMAND.SAVE_MAPPING_HEX:
+                    {
+                        InitRegisterData();
+                        ret = ConvertPhysicalToHex(ref msg);
+                        if (ret != LibErrorCode.IDS_ERR_SUCCESSFUL)
+                            return ret;
+                        string HexData = GetRegisterHexData(ref msg);
+                        if (ret != LibErrorCode.IDS_ERR_SUCCESSFUL)
+                            return ret;
+                        FileStream file = new FileStream(msg.sub_task_json, FileMode.Create);
+                        StreamWriter sw = new StreamWriter(file);
+                        sw.Write(HexData);
+                        sw.Close();
+                        file.Close();
+                        break;
+                    }
+                case ElementDefine.COMMAND.SAVE_EFUSE_HEX:
+                    {
+                        InitEfuseData();
+                        ret = ConvertPhysicalToHex(ref msg);
+                        if (ret != LibErrorCode.IDS_ERR_SUCCESSFUL)
+                            return ret;
+                        PrepareHexData();
+                        ret = GetEfuseHexData(ref msg);
+                        if (ret != LibErrorCode.IDS_ERR_SUCCESSFUL)
+                            return ret;
+                        FileStream file = new FileStream(msg.sub_task_json, FileMode.Create);
+                        StreamWriter sw = new StreamWriter(file);
+                        sw.Write(msg.sm.efusehexdata);
+                        sw.Close();
+                        file.Close();
+                        break;
+                    }
             }
             return ret;
         }
@@ -1691,6 +1725,15 @@ namespace O2Micro.Cobra.KALL14
             {
                 parent.m_EFRegImg[i].err = 0;
                 parent.m_EFRegImg[i].val = 0;
+            }
+        }
+
+        private void InitRegisterData()
+        {
+            for (ushort i = ElementDefine.OP_USR_OFFSET; i <= ElementDefine.OP_USR_TOP; i++)
+            {
+                parent.m_OpRegImg[i].err = 0;
+                parent.m_OpRegImg[i].val = 0;
             }
         }
 
@@ -1845,6 +1888,18 @@ namespace O2Micro.Cobra.KALL14
             return LibErrorCode.IDS_ERR_SUCCESSFUL;
         }
 
+        private string GetRegisterHexData(ref TASKMessage msg)
+        {
+            string tmp = "";
+            for (ushort i = ElementDefine.OP_USR_OFFSET; i <= ElementDefine.OP_USR_TOP; i++)
+            {
+                if (parent.m_OpRegImg[i].err != LibErrorCode.IDS_ERR_SUCCESSFUL)
+                    return "";
+                tmp += "0x" + i.ToString("X2") + ", " + "0x" + parent.m_OpRegImg[i].val.ToString("X4") + "\r\n";
+            }
+            return tmp;
+        }
+
         private UInt32 GetEfuseBinData(ref TASKMessage msg)
         {
             List<byte> tmp = new List<byte>();
@@ -1861,6 +1916,19 @@ namespace O2Micro.Cobra.KALL14
                 tmp.Add(low);
             }
             msg.sm.efusebindata = tmp;
+            return LibErrorCode.IDS_ERR_SUCCESSFUL;
+        }
+
+        private UInt32 GetMappingHexData(ref TASKMessage msg)
+        {
+            string tmp = "";
+            for (ushort i = ElementDefine.OP_USR_OFFSET; i <= ElementDefine.OP_USR_TOP; i++)
+            {
+                if (parent.m_EFRegImg[i].err != LibErrorCode.IDS_ERR_SUCCESSFUL)
+                    return parent.m_EFRegImg[i].err;
+                tmp += "0x" + i.ToString("X2") + ", " + "0x" + parent.m_EFRegImg[i].val.ToString("X4") + "\r\n";
+            }
+            msg.sm.efusehexdata = tmp;
             return LibErrorCode.IDS_ERR_SUCCESSFUL;
         }
 
