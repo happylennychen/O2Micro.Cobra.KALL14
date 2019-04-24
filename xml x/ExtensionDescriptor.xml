@@ -21,6 +21,8 @@
       </Layout>
       <SubTask>
         <SaveHex>16</SaveHex>
+        <GetMax>18</GetMax>
+        <GetMin>19</GetMin>
       </SubTask>
     </Button>
     <Button Label = "EFUSE Config"   Name ="DeviceConfig"   PanelName ="O2Micro.Cobra.DeviceConfigurationPanel">
@@ -29,6 +31,8 @@
       </Layout>
       <SubTask>
         <SaveHex>17</SaveHex>
+        <GetMax>18</GetMax>
+        <GetMin>19</GetMin>
       </SubTask>
     </Button>
     <Button Label = "Scan"      DBModuleName="Scan"      Name = "Scan"         PanelName ="O2Micro.Cobra.MonitorPanel"/>
