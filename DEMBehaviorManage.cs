@@ -1641,6 +1641,21 @@ namespace O2Micro.Cobra.KALL14
                             return ret;
                         break;
                     }
+                case ElementDefine.COMMAND.VERIFICATION:
+                    {
+                        InitEfuseData();
+                        ret = ConvertPhysicalToHex(ref msg);
+                        if (ret != LibErrorCode.IDS_ERR_SUCCESSFUL)
+                            return ret;
+                        PrepareHexData();
+                        ret = WriteToEFUSEBuffer();
+                        if (ret != LibErrorCode.IDS_ERR_SUCCESSFUL)
+                            return ret;
+                        ret = ReadBackCheck();
+                        if (ret != LibErrorCode.IDS_ERR_SUCCESSFUL)
+                            return ret;
+                        break;
+                    }
             }
             return ret;
         }
@@ -1813,6 +1828,24 @@ namespace O2Micro.Cobra.KALL14
             return ret;
         }
 
+
+        private UInt32 WriteToEFUSEBuffer()
+        {
+            UInt32 ret = LibErrorCode.IDS_ERR_SUCCESSFUL;
+
+            for (byte badd = (byte)ElementDefine.EF_USR_OFFSET; badd <= (byte)ElementDefine.EF_USR_TOP; badd++)
+            {
+                ret = parent.m_EFRegImg[badd].err;
+                if (ret != LibErrorCode.IDS_ERR_SUCCESSFUL)
+                {
+                    return ret;
+                }
+                EFUSEUSRbuf[badd - ElementDefine.EF_USR_OFFSET] = parent.m_EFRegImg[badd].val;
+            }
+
+            return ret;
+        }
+
         private UInt32 ReadBackCheck()
         {
             UInt32 ret = LibErrorCode.IDS_ERR_SUCCESSFUL;
@@ -1822,7 +1855,9 @@ namespace O2Micro.Cobra.KALL14
             ushort pval = 0;
             for (byte badd = (byte)ElementDefine.EF_USR_OFFSET; badd <= (byte)ElementDefine.EF_USR_TOP; badd++)
             {
-                ret = OnReadWord(badd, ref pval);
+                ret = ReadWord(badd, ref pval);
+                if (ret != LibErrorCode.IDS_ERR_SUCCESSFUL)
+                    return ret;
                 if (pval != EFUSEUSRbuf[badd - ElementDefine.EF_USR_OFFSET])
                 {
                     return LibErrorCode.IDS_ERR_DEM_BUF_CHECK_FAIL;
