@@ -1675,6 +1675,38 @@ namespace O2Micro.Cobra.KALL14
                         file.Close();
                         break;
                     }
+                case ElementDefine.COMMAND.GET_MAX_VALUE:
+                    {
+                        param = msg.task_parameterlist.parameterlist[0];
+                        //double originalvalue = param.phydata;
+                        double maxvalue = 0;
+                        for (long i = param.dbHexMin; i <= param.dbHexMax; i++)
+                        {
+                            parent.WriteToRegImg(param, (ushort)i);
+                            parent.Hex2Physical(ref param);
+                            if (maxvalue < param.phydata)
+                                maxvalue = param.phydata;
+                        }
+                        param.dbPhyMax = maxvalue;
+                        //param.phydata = originalvalue;
+                        break;
+                    }
+                case ElementDefine.COMMAND.GET_MIN_VALUE:
+                    {
+                        param = msg.task_parameterlist.parameterlist[0];
+                        //double originalvalue = param.phydata;
+                        double minvalue = 99999;
+                        for (long i = param.dbHexMin; i <= param.dbHexMax; i++)
+                        {
+                            parent.WriteToRegImg(param, (ushort)i);
+                            parent.Hex2Physical(ref param);
+                            if (minvalue > param.phydata)
+                                minvalue = param.phydata;
+                        }
+                        param.dbPhyMin = minvalue;
+                        //param.phydata = originalvalue;
+                        break;
+                    }
             }
             return ret;
         }
