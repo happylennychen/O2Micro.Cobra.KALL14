@@ -166,6 +166,7 @@ namespace O2Micro.Cobra.KALL14
             SAVE_EFUSE_HEX = 17,
             GET_MAX_VALUE = 18,
             GET_MIN_VALUE = 19,
+            VERIFICATION = 20
         }
     }
 }
