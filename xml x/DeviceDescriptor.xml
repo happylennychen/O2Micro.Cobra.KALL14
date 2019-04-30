@@ -4331,7 +4331,7 @@
       <RegRef>1</RegRef>
       <Offset>1260</Offset>
       <SubType>117</SubType>
-      <HexMin>0</HexMin>
+      <HexMin>1</HexMin>
       <HexMax>3f</HexMax>
       <PhyMin>-29.1</PhyMin>
       <PhyMax>13.4</PhyMax>
@@ -4399,7 +4399,7 @@
       <RegRef>1</RegRef>
       <Offset>1455</Offset>
       <SubType>117</SubType>
-      <HexMin>0</HexMin>
+      <HexMin>1</HexMin>
       <HexMax>3f</HexMax>
       <PhyMin>-35.9</PhyMin>
       <PhyMax>4.2</PhyMax>
@@ -10144,7 +10144,7 @@
       <RegRef>1</RegRef>
       <Offset>1455</Offset>
       <SubType>117</SubType>
-      <HexMin>0</HexMin>
+      <HexMin>1</HexMin>
       <HexMax>3F</HexMax>
       <PhyMin>-35.9</PhyMin>
       <PhyMax>4.2</PhyMax>
