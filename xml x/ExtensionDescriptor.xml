@@ -19,11 +19,17 @@
       <Layout Name ="layout" bOrder ="true">
         <Button Name ="EraseBtn" IsEnable ="False" Visibility="Collapsed"/>
       </Layout>
+      <SubTask>
+        <SaveHex>16</SaveHex>
+      </SubTask>
     </Button>
     <Button Label = "EFUSE Config"   Name ="DeviceConfig"   PanelName ="O2Micro.Cobra.DeviceConfigurationPanel">
       <Layout Name ="layout" bOrder ="true">
         <Button Name ="EraseBtn" IsEnable ="False" Visibility="Collapsed"/>
       </Layout>
+      <SubTask>
+        <SaveHex>17</SaveHex>
+      </SubTask>
     </Button>
     <Button Label = "Scan"      DBModuleName="Scan"      Name = "Scan"         PanelName ="O2Micro.Cobra.MonitorPanel"/>
     <Button Label = "Mass Production"    DBModuleName="Production"        Name = "Production"  ShowVerify="False" ShowConfig="True" ShowHEX="False"         PanelName ="O2Micro.Cobra.ProductionPanel">
