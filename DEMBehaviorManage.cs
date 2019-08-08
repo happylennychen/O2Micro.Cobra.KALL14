@@ -1709,6 +1709,10 @@ namespace O2Micro.Cobra.KALL14
                     }
                 case ElementDefine.COMMAND.VERIFICATION:
                     {
+                        ret = ConvertPhysicalToHex(ref msg);
+                        if (ret != LibErrorCode.IDS_ERR_SUCCESSFUL)
+                            return ret;
+                        PrepareHexData();
                         ret = WriteToEFUSEBuffer();
                         if (ret != LibErrorCode.IDS_ERR_SUCCESSFUL)
                             return ret;
@@ -1972,7 +1976,7 @@ namespace O2Micro.Cobra.KALL14
                 //tmp += "0x" + i.ToString("X2") + ", " + "0x" + parent.m_EFRegImg[i].val.ToString("X4") + "\r\n";
                 tmp.Add((byte)i);
                 byte hi = 0, low = 0;
-                hi = (byte)((parent.m_EFRegImg[i].val)>>8);
+                hi = (byte)((parent.m_EFRegImg[i].val) >> 8);
                 low = (byte)(parent.m_EFRegImg[i].val);
                 tmp.Add(hi);
                 tmp.Add(low);

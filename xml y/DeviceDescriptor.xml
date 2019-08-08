@@ -4347,7 +4347,7 @@
           <Order>0</Order>
           <NickName>CUT-T</NickName>
           <Catalog>CUT</Catalog>
-          <DefValue>13.4</DefValue>
+          <DefValue>0</DefValue>
           <EditType>0</EditType>
           <Format>1</Format>
           <EventMode>0</EventMode>
@@ -4383,7 +4383,7 @@
           <Order>1</Order>
           <NickName>CUT-H</NickName>
           <Catalog>CUT</Catalog>
-          <DefValue>1.4</DefValue>
+          <DefValue>5</DefValue>
           <EditType>0</EditType>
           <Format>1</Format>
           <EventMode>0</EventMode>
@@ -4415,7 +4415,7 @@
           <Order>0</Order>
           <NickName>DUT-T</NickName>
           <Catalog>DUT</Catalog>
-          <DefValue>4.1</DefValue>
+          <DefValue>-20</DefValue>
           <EditType>0</EditType>
           <Format>1</Format>
           <EventMode>0</EventMode>
@@ -4451,7 +4451,7 @@
           <Order>0</Order>
           <NickName>COT-T</NickName>
           <Catalog>COT</Catalog>
-          <DefValue>92.6</DefValue>
+          <DefValue>55</DefValue>
           <EditType>0</EditType>
           <Format>1</Format>
           <EventMode>0</EventMode>
@@ -4521,7 +4521,7 @@
           <Order>1</Order>
           <NickName>COT-H</NickName>
           <Catalog>COT</Catalog>
-          <DefValue>4.4</DefValue>
+          <DefValue>10</DefValue>
           <EditType>0</EditType>
           <Format>1</Format>
           <EventMode>0</EventMode>
@@ -4625,7 +4625,7 @@
           <Order>0</Order>
           <NickName>DOT-T</NickName>
           <Catalog>DOT</Catalog>
-          <DefValue>91.5</DefValue>
+          <DefValue>70</DefValue>
           <EditType>0</EditType>
           <Format>1</Format>
           <EventMode>0</EventMode>
@@ -4695,12 +4695,12 @@
           <Order>1</Order>
           <NickName>DOT-H</NickName>
           <Catalog>DOT</Catalog>
-          <DefValue>3.2</DefValue>
+          <DefValue>10</DefValue>
           <EditType>0</EditType>
           <Format>1</Format>
           <EventMode>0</EventMode>
           <MinValue>1</MinValue>
-          <MaxValue>8</MaxValue>
+          <MaxValue>12</MaxValue>
           <Description>Discharge Over Temperature Release Hysteresis.</Description>
         </SFL>
       </Private>
@@ -4847,7 +4847,7 @@
           <Order>1</Order>
           <NickName>DUT-H</NickName>
           <Catalog>DUT</Catalog>
-          <DefValue>4.4</DefValue>
+          <DefValue>10</DefValue>
           <EditType>0</EditType>
           <Format>1</Format>
           <EventMode>0</EventMode>
@@ -12447,7 +12447,7 @@
           <Order>0</Order>
           <NickName>CUT-T</NickName>
           <Catalog>CUT</Catalog>
-          <DefValue>13.4</DefValue>
+          <DefValue>0</DefValue>
           <EditType>0</EditType>
           <Format>1</Format>
           <EventMode>0</EventMode>
@@ -12495,7 +12495,7 @@
           <Order>1</Order>
           <NickName>CUT-H</NickName>
           <Catalog>CUT</Catalog>
-          <DefValue>1.4</DefValue>
+          <DefValue>5</DefValue>
           <EditType>0</EditType>
           <Format>1</Format>
           <EventMode>0</EventMode>
@@ -12539,7 +12539,7 @@
           <Order>0</Order>
           <NickName>DUT-T</NickName>
           <Catalog>DUT</Catalog>
-          <DefValue>4.1</DefValue>
+          <DefValue>-20</DefValue>
           <EditType>0</EditType>
           <Format>1</Format>
           <EventMode>0</EventMode>
@@ -12587,7 +12587,7 @@
           <Order>0</Order>
           <NickName>COT-T</NickName>
           <Catalog>COT</Catalog>
-          <DefValue>92.6</DefValue>
+          <DefValue>55</DefValue>
           <EditType>0</EditType>
           <Format>1</Format>
           <EventMode>0</EventMode>
@@ -12681,7 +12681,7 @@
           <Order>1</Order>
           <NickName>COT-H</NickName>
           <Catalog>COT</Catalog>
-          <DefValue>4.4</DefValue>
+          <DefValue>10</DefValue>
           <EditType>0</EditType>
           <Format>1</Format>
           <EventMode>0</EventMode>
@@ -12821,7 +12821,7 @@
           <Order>0</Order>
           <NickName>DOT-T</NickName>
           <Catalog>DOT</Catalog>
-          <DefValue>91.5</DefValue>
+          <DefValue>70</DefValue>
           <EditType>0</EditType>
           <Format>1</Format>
           <EventMode>0</EventMode>
@@ -12915,12 +12915,12 @@
           <Order>1</Order>
           <NickName>DOT-H</NickName>
           <Catalog>DOT</Catalog>
-          <DefValue>3.2</DefValue>
+          <DefValue>10</DefValue>
           <EditType>0</EditType>
           <Format>1</Format>
           <EventMode>0</EventMode>
           <MinValue>1</MinValue>
-          <MaxValue>8</MaxValue>
+          <MaxValue>12</MaxValue>
           <Description>Discharge Over Temperature Release Hysteresis.</Description>
         </SFL>
       </Private>
@@ -13131,7 +13131,7 @@
           <Order>1</Order>
           <NickName>DUT-H</NickName>
           <Catalog>DUT</Catalog>
-          <DefValue>4.4</DefValue>
+          <DefValue>10</DefValue>
           <EditType>0</EditType>
           <Format>1</Format>
           <EventMode>0</EventMode>
@@ -13239,7 +13239,7 @@
           <Order>1</Order>
           <NickName>CTO-E</NickName>
           <Catalog>CTO</Catalog>
-          <DefValue>0</DefValue>
+          <DefValue>1</DefValue>
           <EditType>1</EditType>
           <Format>0</Format>
           <EventMode>0</EventMode>
@@ -13270,7 +13270,7 @@
           <Order>3</Order>
           <NickName>CUT-E</NickName>
           <Catalog>CUT</Catalog>
-          <DefValue>0</DefValue>
+          <DefValue>1</DefValue>
           <EditType>1</EditType>
           <Format>0</Format>
           <EventMode>0</EventMode>
@@ -13301,7 +13301,7 @@
           <Order>3</Order>
           <NickName>DUT-E</NickName>
           <Catalog>DUT</Catalog>
-          <DefValue>0</DefValue>
+          <DefValue>1</DefValue>
           <EditType>1</EditType>
           <Format>0</Format>
           <EventMode>0</EventMode>
@@ -13332,7 +13332,7 @@
           <Order>1</Order>
           <NickName>EOC-E</NickName>
           <Catalog>EOC</Catalog>
-          <DefValue>0</DefValue>
+          <DefValue>1</DefValue>
           <EditType>1</EditType>
           <Format>0</Format>
           <EventMode>0</EventMode>
@@ -13363,7 +13363,7 @@
           <Order>1</Order>
           <NickName>CTO-E</NickName>
           <Catalog>CTO</Catalog>
-          <DefValue>0</DefValue>
+          <DefValue>1</DefValue>
           <EditType>1</EditType>
           <Format>0</Format>
           <EventMode>0</EventMode>
@@ -13394,7 +13394,7 @@
           <Order>3</Order>
           <NickName>CUT-E</NickName>
           <Catalog>CUT</Catalog>
-          <DefValue>0</DefValue>
+          <DefValue>1</DefValue>
           <EditType>1</EditType>
           <Format>0</Format>
           <EventMode>0</EventMode>
@@ -13425,7 +13425,7 @@
           <Order>3</Order>
           <NickName>DUT-E</NickName>
           <Catalog>DUT</Catalog>
-          <DefValue>0</DefValue>
+          <DefValue>1</DefValue>
           <EditType>1</EditType>
           <Format>0</Format>
           <EventMode>0</EventMode>
@@ -13456,7 +13456,7 @@
           <Order>1</Order>
           <NickName>EOC-E</NickName>
           <Catalog>EOC</Catalog>
-          <DefValue>0</DefValue>
+          <DefValue>1</DefValue>
           <EditType>1</EditType>
           <Format>0</Format>
           <EventMode>0</EventMode>
