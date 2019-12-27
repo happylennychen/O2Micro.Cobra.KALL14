@@ -15,6 +15,7 @@ namespace O2Micro.Cobra.KALL14
     internal class ElementDefine
     {
         #region Chip Constant
+        internal const byte CELL_NUMBER = 14;
         internal const UInt16 EF_MEMORY_SIZE = 0x10;
         internal const UInt16 EF_MEMORY_OFFSET = 0x60;
         internal const UInt16 EF_ATE_OFFSET = 0x60;
@@ -107,7 +108,7 @@ namespace O2Micro.Cobra.KALL14
             INT_TEMP,
             EXT_TEMP,
             CURRENT = 4,
-            //CELLNUM = 5,
+            CELLNUM = 5,
             EXT_TEMP_TABLE = 40,
             INT_TEMP_REFER = 41,
             //OVP = 100,  //cb_start_th
@@ -161,12 +162,12 @@ namespace O2Micro.Cobra.KALL14
             DOWNLOAD_WITHOUT_POWER_CONTROL = 12,
             READ_BACK_CHECK = 13,
             ATE_CRC_CHECK = 14,
-            GET_EFUSE_HEX_DATA = 15,
-            SAVE_MAPPING_HEX = 16,
+            //GET_EFUSE_HEX_DATA = 15,          //Production make Hex file, no need anymore
+            //SAVE_MAPPING_HEX = 16,            //Register make Hex file, no need anymore
             SAVE_EFUSE_HEX = 17,
             GET_MAX_VALUE = 18,
             GET_MIN_VALUE = 19,
-            VERIFICATION = 20
+            VERIFICATION = 20                   //Production页面的Read Back Check按钮，比 READ_BACK_CHECK 命令多一些动作
         }
     }
 }
