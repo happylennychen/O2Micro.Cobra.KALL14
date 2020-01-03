@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Root usage="DeviceDescriptor" chip="KALL14" version="1.00">
+<Root usage="DeviceDescriptor" chip="OZ7714" version="1.00">
   <Section Name="BusOptions" Guid="0x00100000">
     <Element Guid="0x00100000">
       <PhysicalData>0</PhysicalData>
@@ -51,7 +51,7 @@
         <SFL Name="BusOptions">
           <Order>0</Order>
           <NickName>I2C Address:</NickName>
-          <Catalog>KALL</Catalog>
+          <Catalog>OZ7714</Catalog>
           <DefValue>0</DefValue>
           <EditType>1</EditType>
           <Format>1</Format>
@@ -72,7 +72,7 @@
         <SFL Name="BusOptions">
           <Order>1</Order>
           <NickName>PEC enable</NickName>
-          <Catalog>KALL</Catalog>
+          <Catalog>OZ7714</Catalog>
           <DefValue>0</DefValue>
           <EditType>1</EditType>
           <Format>1</Format>
@@ -4656,7 +4656,7 @@
       </LocationList>
       <ItemList>
         <Item>Do nothing</Item>
-        <Item>Force KALL14 to enter sleep during ELOCK OFF</Item>
+        <Item>Force OZ7714 to enter sleep during ELOCK OFF</Item>
       </ItemList>
       <Private>
         <SFL Name="EFUSE Config">
@@ -4669,7 +4669,7 @@
           <EventMode>0</EventMode>
           <MinValue>0</MinValue>
           <MaxValue>1</MaxValue>
-          <Description>Active high to force KALL14 to enter sleep during ELOCK OFF, wake up by ELOCK ON or by CHARGER IN.</Description>
+          <Description>Active high to force OZ7714 to enter sleep during ELOCK OFF, wake up by ELOCK ON or by CHARGER IN.</Description>
         </SFL>
       </Private>
     </Element>
@@ -4935,7 +4935,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>chip id</Description>
         </SFL>
       </Private>
@@ -4966,7 +4966,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>ntc adc data</Description>
         </SFL>
         <SFL Name="Scan">
@@ -5016,7 +5016,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell01 adc data</Description>
         </SFL>
         <SFL Name="Scan">
@@ -5068,7 +5068,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell02 adc data</Description>
         </SFL>
         <SFL Name="Scan">
@@ -5120,7 +5120,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell03 adc data</Description>
         </SFL>
         <SFL Name="Scan">
@@ -5172,7 +5172,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell04 adc data</Description>
         </SFL>
         <SFL Name="Scan">
@@ -5224,7 +5224,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell05 adc data</Description>
         </SFL>
         <SFL Name="Scan">
@@ -5276,7 +5276,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell06 adc data</Description>
         </SFL>
         <SFL Name="Scan">
@@ -5328,7 +5328,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell07 adc data</Description>
         </SFL>
         <SFL Name="Scan">
@@ -5380,7 +5380,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell08 adc data</Description>
         </SFL>
         <SFL Name="Scan">
@@ -5432,7 +5432,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell09 adc data</Description>
         </SFL>
         <SFL Name="Scan">
@@ -5484,7 +5484,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell10 adc data</Description>
         </SFL>
         <SFL Name="Scan">
@@ -5536,7 +5536,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell11 adc data</Description>
         </SFL>
         <SFL Name="Scan">
@@ -5588,7 +5588,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell12 adc data</Description>
         </SFL>
         <SFL Name="Scan">
@@ -5640,7 +5640,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell13 adc data</Description>
         </SFL>
         <SFL Name="Scan">
@@ -5692,7 +5692,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell14 adc data</Description>
         </SFL>
         <SFL Name="Scan">
@@ -5744,7 +5744,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>packc adc data</Description>
         </SFL>
       </Private>
@@ -5775,7 +5775,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>v800mv adc data</Description>
         </SFL>
       </Private>
@@ -5806,7 +5806,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>packv adc data</Description>
         </SFL>
       </Private>
@@ -5837,7 +5837,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>v50v adc data</Description>
         </SFL>
       </Private>
@@ -5868,7 +5868,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>v800mv adc data</Description>
         </SFL>
       </Private>
@@ -5899,7 +5899,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>packc adc data</Description>
         </SFL>
         <SFL Name="Scan">
@@ -5951,7 +5951,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>raw adc data</Description>
         </SFL>
       </Private>
@@ -5982,7 +5982,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>which channel</Description>
         </SFL>
       </Private>
@@ -6013,7 +6013,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>max cell data</Description>
         </SFL>
       </Private>
@@ -6044,7 +6044,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>which cell max</Description>
         </SFL>
       </Private>
@@ -6075,7 +6075,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>min cell data</Description>
         </SFL>
       </Private>
@@ -6106,7 +6106,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>which cell min</Description>
         </SFL>
       </Private>
@@ -6137,7 +6137,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>sw elock</Description>
         </SFL>
       </Private>
@@ -6168,7 +6168,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>sw dsg ctrl</Description>
         </SFL>
       </Private>
@@ -6199,7 +6199,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>sw chg ctrl</Description>
         </SFL>
       </Private>
@@ -6230,7 +6230,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>trigger scan req</Description>
         </SFL>
       </Private>
@@ -6261,7 +6261,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>sw mapping req</Description>
         </SFL>
       </Private>
@@ -6292,7 +6292,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>dsg drv</Description>
         </SFL>
         <SFL Name="Scan">
@@ -6341,7 +6341,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>chg drv</Description>
         </SFL>
         <SFL Name="Scan">
@@ -6389,7 +6389,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>in dsg state</Description>
         </SFL>
         <SFL Name="Scan">
@@ -6437,7 +6437,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>in chg state</Description>
         </SFL>
         <SFL Name="Scan">
@@ -6485,7 +6485,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>sleep state</Description>
         </SFL>
         <SFL Name="Scan">
@@ -6528,7 +6528,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell bal sel</Description>
         </SFL>
         <SFL Name="Scan">
@@ -6570,7 +6570,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>scp ie</Description>
         </SFL>
       </Private>
@@ -6601,7 +6601,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>doc2p ie</Description>
         </SFL>
       </Private>
@@ -6632,7 +6632,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>doc1p ie</Description>
         </SFL>
       </Private>
@@ -6663,7 +6663,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cutp ie</Description>
         </SFL>
       </Private>
@@ -6694,7 +6694,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cotp ie</Description>
         </SFL>
       </Private>
@@ -6725,7 +6725,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>dotp ie</Description>
         </SFL>
       </Private>
@@ -6756,7 +6756,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>uvp ie</Description>
         </SFL>
       </Private>
@@ -6787,7 +6787,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>ovp ie</Description>
         </SFL>
       </Private>
@@ -6818,7 +6818,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cocp ie</Description>
         </SFL>
       </Private>
@@ -6849,7 +6849,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cto ie</Description>
         </SFL>
       </Private>
@@ -6880,7 +6880,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>eoc ie</Description>
         </SFL>
       </Private>
@@ -6911,7 +6911,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>iotp ie</Description>
         </SFL>
       </Private>
@@ -6942,7 +6942,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>dutp ie</Description>
         </SFL>
       </Private>
@@ -6973,7 +6973,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>wkup ie</Description>
         </SFL>
       </Private>
@@ -7004,7 +7004,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>trigger scan ie</Description>
         </SFL>
       </Private>
@@ -7035,7 +7035,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>i2c timeout ie</Description>
         </SFL>
       </Private>
@@ -7066,7 +7066,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>scp state</Description>
         </SFL>
         <SFL Name="Scan">
@@ -7114,7 +7114,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>doc2p state</Description>
         </SFL>
         <SFL Name="Scan">
@@ -7162,7 +7162,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>doc1p state</Description>
         </SFL>
         <SFL Name="Scan">
@@ -7210,7 +7210,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cutp state</Description>
         </SFL>
         <SFL Name="Scan">
@@ -7258,7 +7258,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cotp state</Description>
         </SFL>
         <SFL Name="Scan">
@@ -7306,7 +7306,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>dotp state</Description>
         </SFL>
         <SFL Name="Scan">
@@ -7354,7 +7354,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>uvp state</Description>
         </SFL>
         <SFL Name="Scan">
@@ -7402,7 +7402,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>ovp state</Description>
         </SFL>
         <SFL Name="Scan">
@@ -7450,7 +7450,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cocp state</Description>
         </SFL>
         <SFL Name="Scan">
@@ -7498,7 +7498,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cto state</Description>
         </SFL>
         <SFL Name="Scan">
@@ -7546,7 +7546,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>eoc state</Description>
         </SFL>
         <SFL Name="Scan">
@@ -7594,7 +7594,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>iotp state</Description>
         </SFL>
         <SFL Name="Scan">
@@ -7642,7 +7642,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>dutp state</Description>
         </SFL>
         <SFL Name="Scan">
@@ -7690,7 +7690,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>wkup flag</Description>
         </SFL>
         <SFL Name="Scan">
@@ -7734,7 +7734,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>trigger scan flag</Description>
         </SFL>
         <SFL Name="Scan">
@@ -7778,7 +7778,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>i2c timeout flag</Description>
         </SFL>
         <SFL Name="Scan">
@@ -7823,7 +7823,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>efuse mode</Description>
         </SFL>
       </Private>
@@ -7854,7 +7854,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>chgr enable</Description>
         </SFL>
       </Private>
@@ -7885,7 +7885,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>indsg enable</Description>
         </SFL>
       </Private>
@@ -7916,7 +7916,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>original chg drv</Description>
         </SFL>
       </Private>
@@ -7947,7 +7947,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>original dsg drv</Description>
         </SFL>
       </Private>
@@ -7978,7 +7978,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>vm enable</Description>
         </SFL>
       </Private>
@@ -8009,7 +8009,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>iotp enable</Description>
         </SFL>
       </Private>
@@ -8040,7 +8040,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>scp enable</Description>
         </SFL>
       </Private>
@@ -8071,7 +8071,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>doc2p enable</Description>
         </SFL>
       </Private>
@@ -8102,7 +8102,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>vr25v enable</Description>
         </SFL>
       </Private>
@@ -8133,7 +8133,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>allow wr</Description>
         </SFL>
       </Private>
@@ -8164,7 +8164,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>test ctrl</Description>
         </SFL>
       </Private>
@@ -8195,7 +8195,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>test sim</Description>
         </SFL>
       </Private>
@@ -8226,7 +8226,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>speed up</Description>
         </SFL>
       </Private>
@@ -8257,7 +8257,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>mapping disable</Description>
         </SFL>
       </Private>
@@ -8288,7 +8288,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>slope trim</Description>
         </SFL>
       </Private>
@@ -8319,7 +8319,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>vr25v ttrim</Description>
         </SFL>
       </Private>
@@ -8350,7 +8350,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cref ttrim</Description>
         </SFL>
       </Private>
@@ -8381,7 +8381,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>vr25v vtrim</Description>
         </SFL>
       </Private>
@@ -8412,7 +8412,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>uvlo th</Description>
         </SFL>
       </Private>
@@ -8443,7 +8443,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>vd50 vtrim</Description>
         </SFL>
       </Private>
@@ -8474,7 +8474,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>osc512k ftrim</Description>
         </SFL>
       </Private>
@@ -8505,7 +8505,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cref vtrim</Description>
         </SFL>
       </Private>
@@ -8536,7 +8536,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell01 slope trim</Description>
         </SFL>
       </Private>
@@ -8567,7 +8567,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell03 slope trim</Description>
         </SFL>
       </Private>
@@ -8598,7 +8598,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell05 slope trim</Description>
         </SFL>
       </Private>
@@ -8629,7 +8629,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell07 slope trim</Description>
         </SFL>
       </Private>
@@ -8660,7 +8660,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell09 slope trim</Description>
         </SFL>
       </Private>
@@ -8691,7 +8691,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell02 slope trim</Description>
         </SFL>
       </Private>
@@ -8722,7 +8722,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell04 slope trim</Description>
         </SFL>
       </Private>
@@ -8753,7 +8753,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell06 slope trim</Description>
         </SFL>
       </Private>
@@ -8784,7 +8784,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell08 slope trim</Description>
         </SFL>
       </Private>
@@ -8815,7 +8815,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell10 slope trim</Description>
         </SFL>
       </Private>
@@ -8846,7 +8846,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>isense slope trim</Description>
         </SFL>
       </Private>
@@ -8877,7 +8877,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell11 slope trim</Description>
         </SFL>
       </Private>
@@ -8908,7 +8908,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell12 slope trim</Description>
         </SFL>
       </Private>
@@ -8939,7 +8939,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell13 slope trim</Description>
         </SFL>
       </Private>
@@ -8970,7 +8970,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell14 slope trim</Description>
         </SFL>
       </Private>
@@ -9001,7 +9001,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>vts-offset</Description>
         </SFL>
       </Private>
@@ -9032,7 +9032,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell01-offset</Description>
         </SFL>
       </Private>
@@ -9063,7 +9063,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>isens-offset</Description>
         </SFL>
       </Private>
@@ -9094,7 +9094,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>ate-crc-sum</Description>
         </SFL>
       </Private>
@@ -9125,7 +9125,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>group-offset</Description>
         </SFL>
       </Private>
@@ -9156,7 +9156,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell02-offset</Description>
         </SFL>
       </Private>
@@ -9187,7 +9187,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>ate-frozen</Description>
         </SFL>
       </Private>
@@ -9218,7 +9218,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>doc2p th</Description>
         </SFL>
       </Private>
@@ -9249,7 +9249,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>doc2p dly</Description>
         </SFL>
       </Private>
@@ -9280,7 +9280,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cocp timer rls</Description>
         </SFL>
       </Private>
@@ -9311,7 +9311,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell num</Description>
         </SFL>
       </Private>
@@ -9342,7 +9342,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>docp scp rls</Description>
         </SFL>
       </Private>
@@ -9373,7 +9373,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>adc based dly</Description>
         </SFL>
       </Private>
@@ -9404,7 +9404,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>ovp th</Description>
         </SFL>
       </Private>
@@ -9435,7 +9435,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>ovp rls hys</Description>
         </SFL>
       </Private>
@@ -9466,7 +9466,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell open th</Description>
         </SFL>
       </Private>
@@ -9497,7 +9497,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>uvp th</Description>
         </SFL>
       </Private>
@@ -9528,7 +9528,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>uvp rls hys</Description>
         </SFL>
       </Private>
@@ -9559,7 +9559,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>type cfg</Description>
         </SFL>
       </Private>
@@ -9590,7 +9590,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>uvp rls option</Description>
         </SFL>
       </Private>
@@ -9621,7 +9621,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cocp th</Description>
         </SFL>
       </Private>
@@ -9652,7 +9652,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>scp dly</Description>
         </SFL>
       </Private>
@@ -9683,7 +9683,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>doc1p th</Description>
         </SFL>
       </Private>
@@ -9714,7 +9714,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>chg th</Description>
         </SFL>
       </Private>
@@ -9745,7 +9745,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>dsg th</Description>
         </SFL>
       </Private>
@@ -9776,7 +9776,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cb accuracy</Description>
         </SFL>
       </Private>
@@ -9807,7 +9807,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cb start th</Description>
         </SFL>
       </Private>
@@ -9838,7 +9838,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>scan rate</Description>
         </SFL>
       </Private>
@@ -9869,7 +9869,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>uvp default</Description>
         </SFL>
       </Private>
@@ -9900,7 +9900,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cutp th</Description>
         </SFL>
       </Private>
@@ -9931,7 +9931,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cutp rls hys</Description>
         </SFL>
       </Private>
@@ -9962,7 +9962,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>dutp th</Description>
         </SFL>
       </Private>
@@ -9993,7 +9993,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cotp th</Description>
         </SFL>
       </Private>
@@ -10024,7 +10024,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>dsg off in chg</Description>
         </SFL>
       </Private>
@@ -10055,7 +10055,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cotp rls hys</Description>
         </SFL>
       </Private>
@@ -10086,7 +10086,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cb option</Description>
         </SFL>
       </Private>
@@ -10117,7 +10117,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>elock rls</Description>
         </SFL>
       </Private>
@@ -10148,7 +10148,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>dotp th</Description>
         </SFL>
       </Private>
@@ -10179,7 +10179,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>elock off sleep</Description>
         </SFL>
       </Private>
@@ -10210,7 +10210,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>dotp rls hys</Description>
         </SFL>
       </Private>
@@ -10241,7 +10241,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>dutp rls option</Description>
         </SFL>
       </Private>
@@ -10272,7 +10272,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>idle sleep</Description>
         </SFL>
       </Private>
@@ -10303,7 +10303,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>dotp rls option</Description>
         </SFL>
       </Private>
@@ -10334,7 +10334,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>user crc sum</Description>
         </SFL>
       </Private>
@@ -10365,7 +10365,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>dutp rls hys</Description>
         </SFL>
       </Private>
@@ -10396,7 +10396,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>eoc th</Description>
         </SFL>
       </Private>
@@ -10427,7 +10427,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>user frozen</Description>
         </SFL>
       </Private>
@@ -10458,7 +10458,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>vr25v ttrim</Description>
         </SFL>
       </Private>
@@ -10489,7 +10489,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cref ttrim</Description>
         </SFL>
       </Private>
@@ -10520,7 +10520,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>vr25v vtrim</Description>
         </SFL>
       </Private>
@@ -10551,7 +10551,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>uvlo th</Description>
         </SFL>
       </Private>
@@ -10582,7 +10582,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>vd50 vtrim</Description>
         </SFL>
       </Private>
@@ -10613,7 +10613,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>osc512k ftrim</Description>
         </SFL>
       </Private>
@@ -10644,7 +10644,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cref vtrim</Description>
         </SFL>
       </Private>
@@ -10675,7 +10675,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell01 slope trim</Description>
         </SFL>
       </Private>
@@ -10706,7 +10706,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell03 slope trim</Description>
         </SFL>
       </Private>
@@ -10737,7 +10737,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell05 slope trim</Description>
         </SFL>
       </Private>
@@ -10768,7 +10768,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell07 slope trim</Description>
         </SFL>
       </Private>
@@ -10799,7 +10799,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell09 slope trim</Description>
         </SFL>
       </Private>
@@ -10830,7 +10830,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell02 slope trim</Description>
         </SFL>
       </Private>
@@ -10861,7 +10861,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell04 slope trim</Description>
         </SFL>
       </Private>
@@ -10892,7 +10892,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell06 slope trim</Description>
         </SFL>
       </Private>
@@ -10923,7 +10923,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell08 slope trim</Description>
         </SFL>
       </Private>
@@ -10954,7 +10954,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell10 slope trim</Description>
         </SFL>
       </Private>
@@ -10985,7 +10985,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>isense slope trim</Description>
         </SFL>
       </Private>
@@ -11016,7 +11016,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell11 slope trim</Description>
         </SFL>
       </Private>
@@ -11047,7 +11047,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell12 slope trim</Description>
         </SFL>
       </Private>
@@ -11078,7 +11078,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell13 slope trim</Description>
         </SFL>
       </Private>
@@ -11109,7 +11109,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell14 slope trim</Description>
         </SFL>
       </Private>
@@ -11140,7 +11140,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>vts-offset</Description>
         </SFL>
       </Private>
@@ -11171,7 +11171,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell01-offset</Description>
         </SFL>
       </Private>
@@ -11202,7 +11202,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>isens-offset</Description>
         </SFL>
       </Private>
@@ -11233,7 +11233,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>ate-crc-sum</Description>
         </SFL>
       </Private>
@@ -11264,7 +11264,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>group-offset</Description>
         </SFL>
       </Private>
@@ -11295,7 +11295,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell02-offset</Description>
         </SFL>
       </Private>
@@ -11326,7 +11326,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>ate-frozen</Description>
         </SFL>
       </Private>
@@ -11376,7 +11376,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>doc2p th</Description>
         </SFL>
         <SFL Name="Register Config">
@@ -11425,7 +11425,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>doc2p dly</Description>
         </SFL>
         <SFL Name="Register Config">
@@ -11474,7 +11474,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cocp timer rls</Description>
         </SFL>
         <SFL Name="Register Config">
@@ -11527,7 +11527,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell num</Description>
         </SFL>
         <SFL Name="Scan">
@@ -11588,7 +11588,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>docp scp rls</Description>
         </SFL>
         <SFL Name="Register Config">
@@ -11637,7 +11637,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>adc based dly</Description>
         </SFL>
         <SFL Name="Register Config">
@@ -11681,7 +11681,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>ovp th</Description>
         </SFL>
         <SFL Name="Register Config">
@@ -11725,7 +11725,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>ovp rls hys</Description>
         </SFL>
         <SFL Name="Register Config">
@@ -11773,7 +11773,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cell open th</Description>
         </SFL>
         <SFL Name="Register Config">
@@ -11820,7 +11820,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>uvp th</Description>
         </SFL>
         <SFL Name="Register Config">
@@ -11864,7 +11864,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>uvp rls hys</Description>
         </SFL>
         <SFL Name="Register Config">
@@ -11911,7 +11911,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>type cfg</Description>
         </SFL>
         <SFL Name="Register Config">
@@ -11958,7 +11958,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>uvp rls option</Description>
         </SFL>
         <SFL Name="Register Config">
@@ -12002,7 +12002,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cocp th</Description>
         </SFL>
         <SFL Name="Register Config">
@@ -12051,7 +12051,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>scp dly</Description>
         </SFL>
         <SFL Name="Register Config">
@@ -12095,7 +12095,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>doc1p th</Description>
         </SFL>
         <SFL Name="Register Config">
@@ -12157,7 +12157,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>chg th</Description>
         </SFL>
         <SFL Name="Register Config">
@@ -12211,7 +12211,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>dsg th</Description>
         </SFL>
         <SFL Name="Register Config">
@@ -12258,7 +12258,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cb accuracy</Description>
         </SFL>
         <SFL Name="Register Config">
@@ -12302,7 +12302,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cb start th</Description>
         </SFL>
         <SFL Name="Register Config">
@@ -12349,7 +12349,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>scan rate</Description>
         </SFL>
         <SFL Name="Register Config">
@@ -12396,7 +12396,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>uvp default</Description>
         </SFL>
         <SFL Name="Register Config">
@@ -12440,7 +12440,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cutp th</Description>
         </SFL>
         <SFL Name="Register Config">
@@ -12488,7 +12488,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cutp rls hys</Description>
         </SFL>
         <SFL Name="Register Config">
@@ -12532,7 +12532,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>dutp th</Description>
         </SFL>
         <SFL Name="Register Config">
@@ -12580,7 +12580,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cotp th</Description>
         </SFL>
         <SFL Name="Register Config">
@@ -12630,7 +12630,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>dsg off in chg</Description>
         </SFL>
         <SFL Name="Register Config">
@@ -12674,7 +12674,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cotp rls hys</Description>
         </SFL>
         <SFL Name="Register Config">
@@ -12723,7 +12723,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>cb option</Description>
         </SFL>
         <SFL Name="Register Config">
@@ -12770,7 +12770,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>elock rls</Description>
         </SFL>
         <SFL Name="Register Config">
@@ -12814,7 +12814,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>dotp th</Description>
         </SFL>
         <SFL Name="Register Config">
@@ -12852,7 +12852,7 @@
       </LocationList>
       <ItemList>
         <Item>Do nothing</Item>
-        <Item>Force KALL14 to enter sleep during ELOCK OFF</Item>
+        <Item>Force OZ7714 to enter sleep during ELOCK OFF</Item>
       </ItemList>
       <Private>
         <SFL Name="Expert">
@@ -12864,7 +12864,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>elock off sleep</Description>
         </SFL>
         <SFL Name="Register Config">
@@ -12877,7 +12877,7 @@
           <EventMode>0</EventMode>
           <MinValue>0</MinValue>
           <MaxValue>1</MaxValue>
-          <Description>Active high to force KALL14 to enter sleep during ELOCK OFF, wake up by ELOCK ON or by CHARGER IN.</Description>
+          <Description>Active high to force OZ7714 to enter sleep during ELOCK OFF, wake up by ELOCK ON or by CHARGER IN.</Description>
         </SFL>
       </Private>
     </Element>
@@ -12908,7 +12908,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>dotp rls hys</Description>
         </SFL>
         <SFL Name="Register Config">
@@ -12955,7 +12955,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>dutp rls option</Description>
         </SFL>
         <SFL Name="Register Config">
@@ -13002,7 +13002,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>idle sleep</Description>
         </SFL>
         <SFL Name="Register Config">
@@ -13049,7 +13049,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>dotp rls option</Description>
         </SFL>
         <SFL Name="Register Config">
@@ -13092,7 +13092,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>user crc sum</Description>
         </SFL>
       </Private>
@@ -13124,7 +13124,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>dutp rls hys</Description>
         </SFL>
         <SFL Name="Register Config">
@@ -13168,7 +13168,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>eoc th</Description>
         </SFL>
         <SFL Name="Register Config">
@@ -13214,7 +13214,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>KALL14</Group>
+          <Group>OZ7714</Group>
           <Description>user frozen</Description>
         </SFL>
       </Private>
